@@ -1,0 +1,23 @@
+{
+  "name": "threejs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --port 1235"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.4.0"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.143.0",
+    "yuka": "^0.7.8"
+  },
+  "staticFiles": {
+    "staticOutPath": "assets"
+  }
+}
